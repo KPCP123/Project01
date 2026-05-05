@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+html{
+    color-scheme: dark;
+}
+
+body{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+/*SECTION 1 - GREET*/
+.greet{
+    text-align: center;
+}
+
+.greet > .project, .introduction{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project > h1{
+    color: burlywood;
+}
+
+.introduction > p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*SECTION 2 - BACKGROUND*/
