@@ -1,32 +1,68 @@
 *{
     margin: 0px;
+    /*border: 1px solid red;*/
 }
 html{
     color-scheme: dark;
 }
 
-body{
-    margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 100px;
+p{
+    letter-spacing: 3px;
 }
 
+.main{
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 275px;
+    gap: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    margin-top: 50px;
+    position: fixed;
+}
+
+.nav-background{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.nav-background > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-background > a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 
 /*SECTION 1 - GREET*/
-.greet{
+#banner{
     text-align: center;
+    margin-bottom: 200px;
 }
 
-.greet > .project, .introduction{
+#banner > .project, .introduction{
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .project{
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
 }
 
 .project > h1{
@@ -38,3 +74,53 @@ body{
 }
 
 /*SECTION 2 - BACKGROUND*/
+#background{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 200px;
+}
+
+.section-title > h1{
+    font-size: 50px;
+    color: burlywood;
+}
+
+.number{
+    color: rgba(255, 255, 255, 0.25);
+    margin-bottom: 15px;
+}
+
+.title{
+    margin-bottom: 15px;
+}
+
+.education{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.hobbies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.visual img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.content > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+}
