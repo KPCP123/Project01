@@ -37,17 +37,21 @@ nav{
     gap: 25px;
     padding: 15px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-background > a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+    transition: all  0.25s;
 }
 
 .nav-background > a:hover{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    padding: 10px;
+    transform: scale(1.15);
 }
 
 /*SECTION 1 - GREET*/
@@ -95,19 +99,7 @@ nav{
     margin-bottom: 15px;
 }
 
-.education{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-}
-
-.projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-}
-
-.hobbies{
+.education, .projects, .hobbies{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
